@@ -14,4 +14,9 @@
     <li><strong>Copies available:</strong> {{ num_instances_available }}</li>
     <li><strong>Authors:</strong> {{ num_authors }}</li>
   </ul>
+  {% load static %}
+  <img
+    src="{% static 'images/bapstlibrary-bostoncollege.jpg' %}"
+    alt="Bapst Image"
+    style="width:555px;height:540px;" />
 {% endblock %}
