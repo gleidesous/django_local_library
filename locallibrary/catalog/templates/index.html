@@ -19,4 +19,8 @@
     src="{% static 'images/bapstlibrary-bostoncollege.jpg' %}"
     alt="Bapst Image"
     style="width:555px;height:540px;" />
+  
+  <p>
+    You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.
+  </p>
 {% endblock %}
